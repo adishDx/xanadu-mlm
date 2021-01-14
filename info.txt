@@ -1,0 +1,3 @@
+ db = p.connect(database="postgres", user="root", password="Xanadu1234", host="xana
+ 
+ target-db=> \copy source-table from 'source-table.csv' with DELIMITER ',';
